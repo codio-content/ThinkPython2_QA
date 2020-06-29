@@ -1122,40 +1122,64 @@
   "source": {
    "name": "exercise 6.2",
    "showName": false,
-   "bloomsObjectiveLevel": "6",
+   "instructions": "Replace any function calls at the end of your code with the following:\n\n    print(ack(int(input()),int(input())))\n\nThen, submit your code using the button below:",
+   "command": "python3 code/exercises_4.py",
+   "preExecuteCommand": "",
    "guidance": "Solution: <http://thinkpython2.com/code/ackermann.py>. ",
    "showGuidanceAfterResponse": true,
-   "showExpectedAnswer": false,
-   "preExecuteCommand": "",
-   "command": "python3 code/exercises_4.py",
    "points": 1,
    "oneTimeTest": false,
-   "instructions": "Replace any function calls at the end of your code with the following:\n\n    ack(input(),input())\n\nThen, submit your code using the button below:",
-   "learningObjectives": "",
    "options": {
     "ignoreCase": true,
     "ignoreWhitespaces": true,
     "ignoreNewline": true,
-    "matchSubstring": false,
+    "matchSubstring": true,
     "timeout": 30
    },
+   "showExpectedAnswer": true,
    "sequence": [
     {
      "arguments": "",
      "input": "3\n3\n",
-     "output": "61"
+     "output": "61\n",
+     "showFeedback": false,
+     "feedback": ""
     },
     {
      "arguments": "",
      "input": "3\n4\n",
-     "output": "125"
+     "output": "125\n",
+     "showFeedback": false,
+     "feedback": ""
     },
     {
      "arguments": "",
      "input": "0\n0\n",
-     "output": "1"
+     "output": "1\n",
+     "showFeedback": false,
+     "feedback": ""
     }
-   ]
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/exercises_4.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/exercises_4.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": ""
   }
  },
  {
@@ -1201,16 +1225,13 @@
   "source": {
    "name": "exercise 6.4",
    "showName": false,
-   "bloomsObjectiveLevel": "6",
+   "instructions": "Replace any function calls at the end of your code with the following:\n\n    print(is_power(int(input()),int(input())))\n\nThen, submit your code by clicking the button below:",
+   "command": "python3 code/exercise_6-4.py",
+   "preExecuteCommand": "",
    "guidance": "",
    "showGuidanceAfterResponse": false,
-   "showExpectedAnswer": false,
-   "preExecuteCommand": "",
-   "command": "python3 code/exercise_6-4.py",
    "points": 1,
    "oneTimeTest": false,
-   "instructions": "Replace any function calls at the end of your code with the following:\n\n    print(is_power(input()))\n\nThen, submit your code by clicking the button below:",
-   "learningObjectives": "",
    "options": {
     "ignoreCase": true,
     "ignoreWhitespaces": true,
@@ -1218,18 +1239,43 @@
     "matchSubstring": false,
     "timeout": 30
    },
+   "showExpectedAnswer": false,
    "sequence": [
     {
      "arguments": "",
      "input": "8\n2",
-     "output": "True"
+     "output": "True",
+     "showFeedback": false,
+     "feedback": ""
     },
     {
      "arguments": "",
      "input": "10\n2",
-     "output": "False"
+     "output": "False",
+     "showFeedback": false,
+     "feedback": ""
     }
-   ]
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/exercise_6-4.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/exercise_6-4.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": ""
   }
  },
  {
@@ -1238,35 +1284,57 @@
   "source": {
    "name": "exercise 6.5",
    "showName": false,
-   "bloomsObjectiveLevel": "6",
+   "instructions": "Replace any function calls at the end of your code with the following:\n\n    print(gcd( int(input()), int(input()) ) )\n\nThen, submit your code by clicking the button below:",
+   "command": "python3 code/gcd.py",
+   "preExecuteCommand": "",
    "guidance": "",
    "showGuidanceAfterResponse": false,
-   "showExpectedAnswer": false,
-   "preExecuteCommand": "",
-   "command": "python3 code/gcd.py",
    "points": 1,
    "oneTimeTest": false,
-   "instructions": "Replace any function calls at the end of your code with the following:\n\n    gcd( input(), input() )\n\nThen, submit your code by clicking the button below:",
-   "learningObjectives": "",
    "options": {
     "ignoreCase": true,
     "ignoreWhitespaces": true,
     "ignoreNewline": true,
-    "matchSubstring": false,
+    "matchSubstring": true,
     "timeout": 30
    },
+   "showExpectedAnswer": true,
    "sequence": [
     {
      "arguments": "",
      "input": "8\n4\n",
-     "output": "4"
+     "output": "4\n",
+     "showFeedback": false,
+     "feedback": ""
     },
     {
      "arguments": "",
      "input": "12\n8\n",
-     "output": "4\n"
+     "output": "4\n",
+     "showFeedback": false,
+     "feedback": ""
     }
-   ]
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/gcd.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/gcd.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "6",
+   "learningObjectives": ""
   }
  },
  {

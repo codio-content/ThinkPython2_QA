@@ -1,3 +1,15 @@
 [
-
+ {
+  "taskId": "code-output-compare-3425152502",
+  "points": 1,
+  "results": [
+   {
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"                                                                 monty\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"                                                               monkies\\n\"}]}",
+    "expectedOutputs": [],
+    "timestamp": 1581095970977,
+    "state": "pass"
+   }
+  ]
+ }
 ]

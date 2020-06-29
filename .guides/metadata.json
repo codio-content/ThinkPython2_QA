@@ -153,7 +153,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "#terminal: clear; bash -shell.sh",
      "panel": 0,
      "action": "open"
     }
@@ -1257,7 +1257,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "#terminal: ",
      "panel": 0,
      "action": "open"
     }
@@ -1280,7 +1280,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "#terminal: ",
      "panel": 0,
      "action": "open"
     }
@@ -1303,7 +1303,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "#terminal: ",
      "panel": 0,
      "action": "open"
     }
@@ -1326,7 +1326,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "#terminal: ",
      "panel": 0,
      "action": "open"
     }
@@ -1349,7 +1349,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "#terminal: ",
      "panel": 0,
      "action": "open"
     }
@@ -1372,7 +1372,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "#terminal: ",
      "panel": 0,
      "action": "open"
     }
@@ -1395,7 +1395,7 @@
      "action": "close"
     },
     {
-     "path": "#terminal: clear; bash start-shell.sh",
+     "path": "#terminal: ",
      "panel": 0,
      "action": "open"
     }
@@ -1503,7 +1503,7 @@
      "action": "close"
     },
     {
-     "path": "code/exercises_3.py",
+     "path": "code/exercise_5-1.py",
      "panel": 0,
      "action": "open"
     }
@@ -1529,9 +1529,14 @@
      "path": "code/exercise_5-2.py",
      "panel": 0,
      "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-2-dbf5.md",
@@ -1552,9 +1557,14 @@
      "path": "code/exercise_5-3.py",
      "panel": 0,
      "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 1,
+     "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-3-e82c.md",
@@ -1566,7 +1576,18 @@
   {
    "id": "a98f36ab-6f72-7ba3-216c-9563a975b954",
    "title": "Exercise 5.4",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/exercises_3.py",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-4-a98f.md",
@@ -1578,7 +1599,28 @@
   {
    "id": "4d55820d-34f2-c7f2-ff38-414063c677b2",
    "title": "Exercise 5.5",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/exercise-5-5.py",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain3000}}/",
+     "panel": 2,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 3,
+     "action": "open"
+    }
+   ],
+   "layout": "4-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-5-4d55.md",
@@ -1590,7 +1632,28 @@
   {
    "id": "8a0b4f7b-b5bc-5221-dcb8-afda690f1a65",
    "title": "Exercise 5.6",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "code/exercise_5-6.py",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain3000}}/",
+     "panel": 2,
+     "action": "open"
+    },
+    {
+     "path": "#terminal: ",
+     "panel": 3,
+     "action": "open"
+    }
+   ],
+   "layout": "4-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Exercise-5-6-8a0b.md",
@@ -6183,5 +6246,6 @@
  "allowGuideClose": false,
  "collapsedOnStart": false,
  "hideSectionsToggle": false,
- "hideBackToDashboard": false
+ "hideBackToDashboard": false,
+ "protectLayout": false
 }

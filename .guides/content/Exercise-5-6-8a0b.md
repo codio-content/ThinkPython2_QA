@@ -25,6 +25,8 @@ The exception is if $x$ is less than 3: in that case, you can just draw a straig
 
 1.  Write a function called <span>koch</span> that takes a turtle and a length as parameters, and that uses the turtle to draw a Koch curve with the given length.
 
+{Try It|terminal}(python3 code/exercise_5-6.py)
+
 2.  Write a function called <span>snowflake</span> that draws three Koch curves to make the outline of a snowflake.
 
 Solution: <http://thinkpython2.com/code/koch.py>.

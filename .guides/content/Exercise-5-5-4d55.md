@@ -15,3 +15,5 @@ Read the following function and see if you can figure out what it does (see the 
         draw(t, length, n-1)
         t.lt(angle)
         t.bk(length*n)
+
+{Try It|terminal}(python3 code/exercise-5-5.py)

@@ -13,7 +13,6 @@ What is the output of the following program? Draw a stack diagram that shows the
 {Try It}(python3 code/exercises_3.py)
     
 
-7.  {Submit Answer!|assessment}(free-text-3828640500)
+1.  {Submit Answer!|assessment}(free-text-3828640500)
 
-
-8. {Submit Answer!|assessment}(free-text-1474599446)
+1. {Submit Answer!|assessment}(free-text-1474599446)
