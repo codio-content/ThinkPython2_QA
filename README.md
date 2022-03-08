@@ -18,6 +18,4 @@ You can find the original source at [http://greenteapress.com/wp/think-python-2e
 
 
 ## Licensing 
-Think Python 2e is a Free Book. It is available under the Creative Commons Attribution-NonCommercial 3.0 Unported License, which means that you are free to copy, distribute, and modify it, as long as you attribute the work and don’t use it for commercial purposes.
-
-This title is licensed from O'Reilly fro commerical purposes.
+Think Python 2e is a Free Book. It is available under the Creative Commons Attribution-NonCommercial 3.0 Unported License.
